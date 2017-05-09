@@ -295,7 +295,7 @@ align-items: center;
   width: 15%;
   display: flex;
   justify-content: center;
-  padding: 7% 0%;m
+  padding: 7% 0%;
 }
 
 .about figure img {
@@ -330,7 +330,6 @@ align-items: center;
   background: url(../img/logo_CP.png) center;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #ffff;
   opacity: 1;
 }
 
@@ -344,7 +343,6 @@ align-items: center;
   background: url(../img/logo_FAP.png) center;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #ffff;
   opacity: 1;
 }
 
@@ -375,7 +373,6 @@ height: 350px;
     background-position: center;
     background-size: 150px;
     background-repeat: no-repeat;
-    background-color:#ffff;
     opacity: 1;
   }
 
@@ -391,7 +388,6 @@ height: 350px;
     background: url(../img/coach.png) center;
     background-size: 220px;
     background-repeat: no-repeat;
-    background-color: #ffff;
     opacity: 1;
   }
 
@@ -458,7 +454,6 @@ height: 350px;
   background: url(../img/devweb.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ffff;
   opacity: 0.8;
   width: 100%;
   height: 100vh;
@@ -484,7 +479,6 @@ text-shadow: 1px 1px 3px black;
   background: url(../img/startup.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ffff;
   opacity: 0.8;
   width: 100%;
   height: 100vh;
@@ -505,7 +499,6 @@ font-weight: lighter;
   background: url(../img/international.jpg) center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ffff;
 opacity: 0.8;
   width: 100%;
   height: 100vh;
