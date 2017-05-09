@@ -470,7 +470,7 @@ z-index: 2;
 }
 
 #code .titlecode {
-  color: #0DA36B;
+  color: white;
 font-size: 50px;
 text-shadow: 1px 1px 3px black;
 }
@@ -489,7 +489,7 @@ text-shadow: 1px 1px 3px black;
 }
 
 #startup h3 {
-  color: #0DA36B;
+  color: white;
 font-size: 50px;
 text-shadow: 1px 1px 1px black;
 font-weight: lighter;
@@ -509,7 +509,7 @@ opacity: 0.8;
 }
 
 #international h3 {
-  color: #0DA36B;
+  color: white;
 font-size: 50px;
 font-weight: lighter;
 text-shadow: 1px 1px 1px black;
