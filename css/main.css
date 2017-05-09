@@ -1,0 +1,756 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+body {
+font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-image: url(https://template.pro/wp-content/uploads/2016/03/Intro2.gif);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+    background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#headerskills {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7c/15/4d/7c154dc9a03a0f7fa8ae5bfc61f14f2f.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  color: white;
+text-align: center;
+margin: 0;
+font-size: 50px;
+font-weight: lighter;
+width: 100%;
+}
+
+
+header nav {
+  width: 100%;
+}
+
+
+header nav ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+
+header nav ul li a {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #0DA36B;
+  border-bottom: 0.3px solid #0DA36B;
+  transition: 0.5s;
+}
+
+.skills {
+  align-content: center;
+display: flex;
+flex-direction: column;
+padding-bottom: 8%;
+}
+
+.skills h2 {
+  color: rgb(33, 31, 37);
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.porto {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+align-content: space-between;
+}
+
+.porto article {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  border: 0.1px solid black;
+  margin: auto;
+  box-shadow: 0.1px 0.1px 1px grey;
+  justify-content: space-around;
+}
+
+.porto article p {
+  text-align: center;
+  height: 139px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+
+
+.porto article a {
+  line-height: 3em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  width: 30%;
+
+}
+
+.porto article a:hover {
+  text-decoration: underline;
+  color: #0DA36B;
+  transition: 0.2s;
+}
+
+
+.material-icons, .fa-rocket {
+  color: #0DA36B;
+  font-size: 44px;
+}
+
+
+
+.about {
+  background-color: #211F25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 7%;
+}
+
+.about h2 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-top: 8%;
+}
+
+.about p {
+  color: white;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+}
+
+.about a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 3em;
+}
+
+.about a:hover {
+  color: #0DA36B;
+  transition: 0.5s;
+}
+
+.about figure {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  padding: 7% 0%;m
+}
+
+.about figure img {
+  border-radius: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+
+/*---------------SECTION WORK------------*/
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.work #works, #about, #skills, #contact {
+  width: 100%;
+  border: none;
+  line-height: 3em;
+}
+
+.work h3 {
+  font-size: 20px;
+  color: black;
+}
+
+.work #CP {
+  background: url(../img/logo_CP.png) center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #ffff;
+  opacity: 1;
+}
+
+.work #CP:hover {
+  opacity: 0.5;
+  transition: 1s;
+  background-size: 110%;
+}
+
+.work #FAP {
+  background: url(../img/logo_FAP.png) center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #ffff;
+  opacity: 1;
+}
+
+.work #FAP:hover {
+  opacity: 0.5;
+  transition: 1s;
+  background-size: 140%;
+}
+
+
+.work a{
+  text-decoration: none;
+  width: 50%;
+  display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 350px;
+}
+
+.work a h3 {
+  font-weight: 400;
+  z-index: 2;
+}
+
+.work #AIRBNB {
+
+    background: url(../img/logoairbnb.png);
+    background-position: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-color:#ffff;
+    opacity: 1;
+  }
+
+
+  .work #AIRBNB:hover {
+    opacity: 0.5;
+    background-size: 200px;
+    transition: 1s;
+  }
+
+
+  .work #COACH {
+    background: url(../img/coach.png) center;
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-color: #ffff;
+    opacity: 1;
+  }
+
+  .work #COACH:hover {
+    opacity: 0.5;
+    transition: 1s;
+    background-size: 380px;
+  }
+
+
+.work a h3 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+}
+
+.work h2 {
+  color: #211F25;
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+  margin-bottom: 16%;
+}
+
+
+#CP img {
+  padding-bottom: 19%;
+}
+
+#CP figcaption {
+  padding-bottom: 15%;
+}
+
+#FAP img {
+  width: 60%;
+}
+
+#FAP figcaption {
+  padding-top: 24%;
+}
+
+#airbnb figcaption {
+  padding-top: 30%;
+}
+/*---------------SKILLS PAGE---------------*/
+
+.skillspage {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.skillspage article {
+  margin-bottom: 8%;
+  margin-top: 3%;
+  border-bottom: 0.1px solid #0DA36B;
+  border-top: 0.1px solid #0DA36B;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+#code {
+  background: url(../img/devweb.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffff;
+  opacity: 0.8;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#code .titlecode {
+font-weight: lighter;
+z-index: 2;
+}
+
+#code .titlecode {
+  color: #0DA36B;
+font-size: 50px;
+text-shadow: 1px 1px 3px black;
+}
+
+#startup {
+  background: url(../img/startup.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffff;
+  opacity: 0.8;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startup h3 {
+  color: #0DA36B;
+font-size: 50px;
+text-shadow: 1px 1px 1px black;
+font-weight: lighter;
+}
+
+#international {
+  background: url(../img/international.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffff;
+opacity: 0.8;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#international h3 {
+  color: #0DA36B;
+font-size: 50px;
+font-weight: lighter;
+text-shadow: 1px 1px 1px black;
+}
+/*---------FOOTER--------*/
+
+footer {
+  background-color: #211F25;
+  min-height: 500px;
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+footer h2 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 60px;
+  font-weight: lighter;
+  padding-top: 8%;
+}
+
+footer #goup {
+  font-size: 30px;
+  position: fixed;
+top: 90%;
+left: 90%;
+right: 0%;
+bottom: 0%;
+margin-right: 5%;
+}
+
+
+.fa-github, .fa-linkedin, .fa-twitter, .fa-diamond {
+  font-size: 44px;
+  color: white;
+}
+
+.fa-diamond {
+  font-size: 35px;
+}
+
+.fa-diamond:hover{
+  color: #0DA36B;
+}
+.fa-linkedin:hover {
+  color: #0DA36B;
+}
+
+.fa-twitter:hover {
+  color: #0DA36B;
+}
+footer .fa-github:hover{
+  color: #0DA36B;
+}
+
+footer .material-icons:hover {
+  color: #0DA36B;
+}
+
+
+footer #goup .material-icons {
+  color: #0DA36B;
+  font-size: 64px;
+}
+
+footer #goup .material-icons:hover {
+  opacity: .5;
+}
+
+.reseauxpros {
+  display: flex;
+  width: 100%;
+justify-content: space-around;
+}
+
+.reseauxpros .material-icons {
+  color: white;
+
+}
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
