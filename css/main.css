@@ -106,6 +106,7 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
+
 /*---------HEADER HOME PAGE---------*/
 
 header {
@@ -171,8 +172,9 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #0DA36B;
-  border-bottom: 0.3px solid #0DA36B;
-  transition: 0.5s;
+  border-bottom: 0.1px solid #0DA36B;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 /*----------END OF NAV BAR DESK------------*/
@@ -305,6 +307,51 @@ align-items: center;
 
 /*----------HEADER SKILLS PAGE------------*/
 
+.card-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 3%;
+}
+
+.card-block h4 {
+  text-align: center;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5% 0%;
+  min-height: 800px;
+}
+
+.fa {
+  text-align: center;
+  font-size: 30px;
+  color: #0DA36B;
+}
+
+.row {
+    margin: 5% 0%;
+}
+
+.col-md-4 {
+
+padding: 1%;
+}
+
+
+.btn {
+  background-color: #0DA36B;
+  border-color: #0DA36B;
+}
+
+.btn:hover {
+  background-color: rgba(13, 163, 107, 0.8);
+  border-color: #0DA36B;
+}
 /*---------------START SECTION WORK------------*/
 
 .work {
@@ -319,6 +366,13 @@ align-items: center;
   width: 100%;
   border: none;
   line-height: 3em;
+  width: 100%;
+border: none;
+line-height: 3em;
+text-align: center;
+font-size: 60px;
+font-weight: lighter;
+padding-top: 8%;
 }
 
 .work h3 {
@@ -376,6 +430,21 @@ height: 350px;
     opacity: 1;
   }
 
+  .work #PBA{
+
+      background: url(../img/logo_pba.png);
+      background-position: center;
+      background-size: 550px;
+      background-repeat: no-repeat;
+      opacity: 1;
+      width: 100%;
+    }
+
+    .work #PBA:hover {
+      opacity: 0.5;
+      background-size: 700px;
+      transition: 1s;
+    }
 
   .work #AIRBNB:hover {
     opacity: 0.5;
