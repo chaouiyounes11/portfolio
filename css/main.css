@@ -106,6 +106,38 @@ body {
 font-family: 'Raleway', sans-serif;
 }
 
+header .navbar {
+  height: 0px;
+}
+
+.navbar-nav  {
+  margin-top: 40%;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-light .navbar-toggler .fa {
+  color: white;
+  font-size: 40px;
+}
+
+#navbarNavAltMarkup {
+  height: 100vh;
+  background-color: #0DA36B;
+  text-align: center;
+}
+
+#navbarNavAltMarkup .linknav {
+  font-size: 40px;
+}
+
+#navbarNavAltMarkup .linknav:hover {
+  opacity: 0.5;
+  color: white;
+}
+
 
 /*---------HEADER HOME PAGE---------*/
 
@@ -120,24 +152,37 @@ header {
   flex-wrap: wrap;
 }
 
-/*-------END OF HEADER HOME PAGE--------*/
-
-
-/*----------HEADER SKILLS PAGE------------*/
-
-#headerskills {
-  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/7c/15/4d/7c154dc9a03a0f7fa8ae5bfc61f14f2f.gif);
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  background-position: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+header .navbar {
+padding: 0px;
+background-color: #211F25;
+width: 100%;
 }
 
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0px 15px 0px 0px;
+  margin: 0px;
+}
+
+
+ .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0px 15px 0px 0px;
+}
+
+.navbar-nav {
+  padding-bottom: 55%;
+}
 /*-------END OF HEADER HOME PAGE--------*/
+
+
 
 header h1 {
   color: white;
@@ -146,38 +191,10 @@ margin: 0;
 font-size: 50px;
 font-weight: lighter;
 width: 100%;
+display: flex;
+justify-content: center;
 }
 
-/*----------NAV BAR DESK------------*/
-
-header nav {
-  width: 100%;
-}
-
-
-header nav ul {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-
-header nav ul li a {
-  color: white;
-  font-weight: bolder;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-header nav ul li a:hover {
-  color: #0DA36B;
-  border-bottom: 0.1px solid #0DA36B;
-  transition: 0.3s;
-  text-decoration: none;
-}
-
-/*----------END OF NAV BAR DESK------------*/
 
 /*---------- START OF SKILLS SECTION OF HOME PAGE------------*/
 
@@ -194,7 +211,6 @@ padding-bottom: 8%;
   font-size: 60px;
   font-weight: lighter;
   display: flex;
-  flex-direction: column;
   margin: auto;
 }
 
@@ -301,7 +317,6 @@ align-items: center;
 }
 
 .about figure img {
-  border-radius: 10px;
     box-shadow: 3px 3px 8px black;
 }
 
@@ -365,10 +380,8 @@ padding: 1%;
 .work #works, #about, #skills, #contact {
   width: 100%;
   border: none;
-  line-height: 3em;
   width: 100%;
 border: none;
-line-height: 3em;
 text-align: center;
 font-size: 60px;
 font-weight: lighter;
@@ -479,7 +492,6 @@ height: 350px;
   text-align: center;
   font-size: 60px;
   font-weight: lighter;
-  margin-bottom: 16%;
 }
 
 
@@ -661,6 +673,20 @@ justify-content: space-around;
 
 }
 
+  @media(min-width:992px) {
+
+#navbarNavAltMarkup{
+  height: 0px;
+}
+
+#navbarNavAltMarkup .linknav {
+font-size: 20px;
+}
+
+#navbarNavAltMarkup .linknav:hover {
+  opacity: 1;
+  color: #0DA36B;
+}
 
 
 
