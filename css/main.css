@@ -538,6 +538,10 @@ line-height: 5em;
   line-height: 4em;
 }
 
+.carousel-control-prev, .carousel-control-next {
+  bottom: 229px;
+}
+
 /*---------FOOTER OR CONTACT PART ON EVERY PAGES--------*/
 
 footer {
