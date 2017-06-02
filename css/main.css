@@ -142,7 +142,7 @@ header .navbar {
 /*---------HEADER HOME PAGE---------*/
 
 header {
-  background-image: url(https://template.pro/wp-content/uploads/2016/03/Intro2.gif);
+  background-image: url(../img/mygif.gif);
   background-size: cover;
   height: 100vh;
   background-position: center;
