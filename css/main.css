@@ -134,10 +134,10 @@ header .navbar {
 }
 
 #navbarNavAltMarkup .linknav:hover {
-  opacity: 0.5;
-  color: white;
+  opacity: 1;
+  color: #0DA36B;
+  background-color: white;
 }
-
 
 /*---------HEADER HOME PAGE---------*/
 
@@ -325,9 +325,25 @@ align-items: center;
 .card-block {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  padding: 5.25rem;
+}
+
+.card-block .row {
+  display: flex;
+  margin: 3em 0em;
+align-items: baseline;
+}
+
+.card-block figure {
+  margin: 0px;
+  filter: grayscale(100%);
+}
+
+.card-block figure:hover {
+  filter: grayscale(0%);
 }
 
 .card-block h4 {
@@ -339,7 +355,6 @@ align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 5% 0%;
-  min-height: 800px;
 }
 
 .fa {
@@ -373,233 +388,139 @@ margin-bottom: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-height: 800px;
-}
-
-
-
-.work #works, #about, #skills, #contact {
-  width: 100%;
-  border: none;
-  width: 100%;
-border: none;
-text-align: center;
-font-size: 60px;
-font-weight: lighter;
-padding-top: 8%;
-}
-
-.work h3 {
-  font-size: 20px;
-  color: black;
-}
-
-.work #CP {
-  background: url(../img/logo_CP.png) center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  opacity: 1;
-}
-
-.work #CP:hover {
-  opacity: 0.5;
-  transition: 1s;
-  background-size: 110%;
-}
-
-.work #FAP {
-  background: url(../img/logo_FAP.png) center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  opacity: 1;
-}
-
-.work #FAP:hover {
-  opacity: 0.5;
-  transition: 1s;
-  background-size: 140%;
-}
-
-
-.work a{
-  text-decoration: none;
-  width: 50%;
-  display: flex;
-justify-content: center;
-align-items: flex-end;
-height: 350px;
-}
-
-.work a h3 {
-  font-weight: 400;
-  z-index: 2;
-}
-
-.work #AIRBNB {
-
-    background: url(../img/logoairbnb.png);
-    background-position: center;
-    background-size: 150px;
-    background-repeat: no-repeat;
-    opacity: 1;
-  }
-
-  .work #PBA{
-
-      background: url(../img/logo_pba.png);
-      background-position: center;
-      background-size: 550px;
-      background-repeat: no-repeat;
-      opacity: 1;
-      width: 100%;
-    }
-
-    .work #PBA:hover {
-      opacity: 0.5;
-      background-size: 700px;
-      transition: 1s;
-    }
-
-  .work #AIRBNB:hover {
-    opacity: 0.5;
-    background-size: 200px;
-    transition: 1s;
-  }
-
-
-  .work #COACH {
-    background: url(../img/coach.png) center;
-    background-size: 220px;
-    background-repeat: no-repeat;
-    opacity: 1;
-  }
-
-  .work #COACH:hover {
-    opacity: 0.5;
-    transition: 1s;
-    background-size: 380px;
-  }
-
-
-.work a h3 {
-  width: 100%;
+  min-height: 1000px;
   margin: auto;
-  text-align: center;
-  z-index: 2;
 }
+
+
+
 
 .work h2 {
-  color: #211F25;
-  text-align: center;
   font-size: 60px;
-  font-weight: lighter;
-}
-
-
-#CP img {
-  padding-bottom: 19%;
-}
-
-#CP figcaption {
-  padding-bottom: 15%;
-}
-
-#FAP img {
-  width: 60%;
-}
-
-#FAP figcaption {
-  padding-top: 24%;
-}
-
-#airbnb figcaption {
-  padding-top: 30%;
-}
-/*---------------SKILLS PAGE---------------*/
-
-.skillspage {
-  width: 80%;
+  color: black;
   text-align: center;
+    width: 100%;
+  margin-bottom: 5rem;
+}
+
+.work a {
+    width: 100%;
+    min-height: 350px;
+  text-decoration: none;
+}
+
+
+.work .overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.work figure {
+  margin: 0px;
+}
+
+
+.pba {
+  background: url(../img/pba.png);
+}
+
+.work .pizzi {
+  background: url(../img/pizzi.png);
+  background-position: center;
+}
+
+.work .fap {
+  background: url(../img/fap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lbc {
+  background: url(../img/LBC.png);
+}
+
+
+.quiver {
+background: url(../img/quiver.png);
+}
+
+.work .info {
+background: url(../img/info.png);
+}
+
+.tatoo {
+background: url(../img/tatoo.png);
+}
+
+.quiver, .pba, .lbc, .fap, .pizzi, .info, .tatoo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay p {
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+.overlay p em {
+font-style: normal;
+border: 1px solid white;
+padding: 5px 5px;
+}
+
+
+.work a:hover p {
+  opacity: 1 !important;
+}
+
+.work a:hover .overlay {
+    background-color: #211F25;
+    opacity: .9;
+
+}
+.work a:hover .overlay1 {
+    background-color: #0DA36B;
+    opacity: .9;
+}
+
+
+
+/*CAROUSEL FOR REFERENCES*/
+
+#references {
+  color: white;
+  background-color: #211F25;
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.carousel-item {
   margin: auto;
-}
-
-.skillspage article {
-  margin-bottom: 8%;
-  margin-top: 3%;
-  border-bottom: 0.1px solid #0DA36B;
-  border-top: 0.1px solid #0DA36B;
-  padding-bottom: 3%;
-  padding-top: 3%;
-}
-
-#code {
-  background: url(../img/devweb.jpg) center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.8;
-  width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-}
-
-#code .titlecode {
-font-weight: lighter;
-z-index: 2;
-}
-
-#code .titlecode {
+  height: 450px;
+  font-size: 15px;
   color: white;
-font-size: 50px;
-text-shadow: 1px 1px 3px black;
+  font-style: oblique;
+  background-color: #211F25;
 }
 
-#startup {
-  background: url(../img/startup.jpg) center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.8;
-  width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.carousel-item p {
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
-#startup h3 {
-  color: white;
-font-size: 50px;
-text-shadow: 1px 1px 1px black;
-font-weight: lighter;
-}
-
-#international {
-  background: url(../img/international.jpg) center;
-  background-size: cover;
-  background-repeat: no-repeat;
-opacity: 0.8;
-  width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#international h3 {
-  color: white;
-font-size: 50px;
-font-weight: lighter;
-text-shadow: 1px 1px 1px black;
-}
 /*---------FOOTER OR CONTACT PART ON EVERY PAGES--------*/
 
 footer {
-  background-color: #211F25;
+  background-color: white;
   min-height: 500px;
   display: flex;
 flex-wrap: wrap;
@@ -607,7 +528,7 @@ justify-content: center;
 }
 
 footer h2 {
-  color: white;
+  color:#211F25;
   text-align: center;
   width: 100%;
   font-size: 60px;
@@ -628,7 +549,7 @@ margin-right: 5%;
 
 .fa-github, .fa-linkedin, .fa-twitter, .fa-diamond {
   font-size: 44px;
-  color: white;
+  color: #211F25;
 }
 
 .fa-diamond {
@@ -674,6 +595,18 @@ justify-content: space-around;
 
 }
 
+
+
+@media (min-width: 600px) {
+
+.work a {
+  width: 50%;
+}
+
+.carousel-item p {
+  font-size: 20px;
+}
+
   @media(min-width:992px) {
 
 #navbarNavAltMarkup{
@@ -689,7 +622,15 @@ font-size: 20px;
   color: #0DA36B;
 }
 
+.work a {
+  width: 33%;
+}
 
+.carousel-item p {
+  font-size: 30px;
+}
+
+}
 
 
 /* ==========================================================================
