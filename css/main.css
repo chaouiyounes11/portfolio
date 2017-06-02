@@ -310,7 +310,7 @@ align-items: center;
 }
 
 .about figure {
-  width: 15%;
+  width: 50%;
   display: flex;
   justify-content: center;
   padding: 7% 0%;
@@ -416,6 +416,7 @@ margin-bottom: 2%;
   display: flex;
   align-items: center;
   text-align: center;
+  transition: 1s;
 }
 
 .work figure {
@@ -449,6 +450,7 @@ background: url(../img/quiver.png);
 
 .work .info {
 background: url(../img/info.png);
+background-repeat: no-repeat;
 }
 
 .tatoo {
@@ -464,7 +466,9 @@ background: url(../img/tatoo.png);
 .overlay p {
   opacity: 0;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
+  width: 90%;
+  margin: auto;
   font-weight: lighter;
   line-height: 1.5em;
 }
@@ -472,27 +476,40 @@ background: url(../img/tatoo.png);
 .overlay p em {
 font-style: normal;
 border: 1px solid white;
-padding: 5px 5px;
+padding: 5px 80px;
+line-height: 5em;
 }
 
 
 .work a:hover p {
-  opacity: 1 !important;
+  opacity: 1;
 }
 
 .work a:hover .overlay {
     background-color: #211F25;
     opacity: .9;
+    transition: 1s;
+    height: 70%;
 
 }
-.work a:hover .overlay1 {
-    background-color: #0DA36B;
+.work a:hover  {
+    background-color:#211F25;
     opacity: .9;
 }
 
+.overlay:hover em {
+  border-color: #0DA36B;
+}
+
+.overlay em:hover {
+  background-color: #0DA36B;
+  font-weight: bold;
+}
 
 
 /*CAROUSEL FOR REFERENCES*/
+
+
 
 #references {
   color: white;
@@ -504,17 +521,21 @@ padding: 5px 5px;
 
 .carousel-item {
   margin: auto;
-  height: 450px;
-  font-size: 15px;
+  height: 550px;
+  font-size: 18px;
   color: white;
   font-style: oblique;
   background-color: #211F25;
 }
 
 .carousel-item p {
-  width: 60%;
+  width: 65%;
   margin: auto;
   text-align: center;
+}
+
+.carousel-item strong {
+  line-height: 4em;
 }
 
 /*---------FOOTER OR CONTACT PART ON EVERY PAGES--------*/
@@ -540,10 +561,10 @@ footer #goup {
   font-size: 30px;
   position: fixed;
 top: 90%;
-left: 90%;
+left: 80%;
 right: 0%;
 bottom: 0%;
-margin-right: 5%;
+/*margin-right: 5%;*/
 }
 
 
@@ -607,6 +628,12 @@ justify-content: space-around;
   font-size: 20px;
 }
 
+footer #goup {
+left: 90%;
+}
+
+}
+
   @media(min-width:992px) {
 
 #navbarNavAltMarkup{
@@ -627,7 +654,11 @@ font-size: 20px;
 }
 
 .carousel-item p {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+footer #goup {
+left: 95%;
 }
 
 }
