@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -15,6 +17,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -34,6 +37,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -47,20 +51,17 @@ hr {
     padding: 0;
 }
 
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
+
 
 /*
  * Remove default fieldset styles.
@@ -72,6 +73,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -79,6 +81,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -91,276 +94,292 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
+
 body {
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 header .navbar {
-  height: 0px;
+    height: 0px;
 }
 
-.navbar-nav  {
-  margin-top: 40%;
+.navbar-nav {
+    margin-top: 40%;
 }
 
 .navbar-light .navbar-toggler {
-  border: none;
+    border: none;
 }
 
 .navbar-light .navbar-toggler .fa {
-  color: white;
-  font-size: 40px;
+    color: white;
+    font-size: 40px;
 }
 
 #navbarNavAltMarkup {
-  height: 100vh;
-  background-color: #0DA36B;
-  text-align: center;
+    height: 100vh;
+    background-color: #0DA36B;
+    text-align: center;
 }
 
 #navbarNavAltMarkup .linknav {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 #navbarNavAltMarkup .linknav:hover {
-  opacity: 1;
-  color: #0DA36B;
-  background-color: white;
+    opacity: 1;
+    color: #0DA36B;
+    background-color: white;
 }
+
 
 /*---------HEADER HOME PAGE---------*/
 
 header {
-  background-image: url(../img/mygif.gif);
-  background-size: cover;
-  height: 100vh;
-  background-position: center;
+    background-image: url(../img/mygif.gif);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
     background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 header .navbar {
-padding: 0px;
-background-color: #211F25;
-width: 100%;
+    padding: 0px;
+    background-color: #211F25;
+    width: 100%;
 }
-
 
 .navbar-light .navbar-brand {
-  color: white;
-  font-weight: bolder;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 0px 15px 0px 0px;
-  margin: 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 15px 0px 0px;
+    margin: 0px;
 }
 
-
- .navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active {
-  color: white;
-  font-weight: bolder;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 0px 15px 0px 0px;
+.navbar-light .navbar-nav .open>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 15px 0px 0px;
 }
 
 .navbar-nav {
-  padding-bottom: 55%;
+    padding-bottom: 55%;
 }
+
+
 /*-------END OF HEADER HOME PAGE--------*/
 
-
-
 header h1 {
-  color: white;
-text-align: center;
-margin: 0;
-font-size: 50px;
-font-weight: lighter;
-width: 100%;
-display: flex;
-justify-content: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    font-weight: lighter;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
 /*---------- START OF SKILLS SECTION OF HOME PAGE------------*/
 
 .skills {
-  align-content: center;
-display: flex;
-flex-direction: column;
-padding-bottom: 8%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8%;
 }
 
 .skills h2 {
-  color: rgb(33, 31, 37);
-  text-align: center;
-  font-size: 60px;
-  font-weight: lighter;
-  display: flex;
-  margin: auto;
+    color: rgb(33, 31, 37);
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    display: flex;
+    margin: auto;
 }
 
 .porto {
-  display: flex;
-  width: 100%;
-  margin: auto;
-  justify-content: center;
-align-content: space-between;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-content: space-between;
 }
 
 .porto article {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 250px;
-  border: 0.1px solid black;
-  margin: auto;
-  box-shadow: 0.1px 0.1px 1px grey;
-  justify-content: space-around;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    border: 0.1px solid black;
+    margin: auto;
+    box-shadow: 0.1px 0.1px 1px grey;
+    justify-content: space-around;
 }
 
 .porto article p {
-  text-align: center;
-  height: 139px;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
+    text-align: center;
+    height: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-
 .porto article a {
-  line-height: 3em;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  font-size: 14px;
-  width: 30%;
-
+    line-height: 3em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    width: 30%;
 }
 
 .porto article a:hover {
-  text-decoration: underline;
-  color: #0DA36B;
-  transition: 0.2s;
+    text-decoration: underline;
+    color: #0DA36B;
+    transition: 0.2s;
 }
-
 
 .material-icons, .fa-rocket {
-  color: #0DA36B;
-  font-size: 44px;
+    color: #0DA36B;
+    font-size: 44px;
 }
+
 
 /*----------END OF SKILLS SECTION ON HOME PAGE------------*/
 
 
 /*----------ABOUT ME PART ON HOME PAGE------------*/
+
 .about {
-  background-color: #211F25;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 7%;
+    background-color: #211F25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7%;
 }
 
 .about h2 {
-  color: white;
-  text-align: center;
-  font-size: 60px;
-  font-weight: lighter;
-  padding-top: 8%;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    padding-top: 8%;
 }
 
 .about p {
-  color: white;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
-  padding: 5% 0% 5% 0%;
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding: 5% 0% 5% 0%;
 }
 
-.about a{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  line-height: 3em;
+.about a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 3em;
 }
 
 .about a:hover {
-  color: #0DA36B;
-  transition: 0.5s;
+    color: #0DA36B;
+    transition: 0.5s;
 }
 
 .about figure {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  padding: 7% 0%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 7% 0%;
 }
 
 .about figure img {
     box-shadow: 3px 3px 8px black;
 }
 
+
 /*----------HEADER SKILLS PAGE------------*/
 
 .card-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  padding: 5.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5.25rem 0rem;
+}
+
+#collapseExample .card-block {
+padding: 5.25rem  8rem;
+margin-top: 3em;
+}
+
+#collapseExample1 .card-block {
+padding: 5.25rem  8rem;
+margin-top: 3em;
+}
+
+#collapseExample2 .card-block {
+padding: 5.25rem  8rem;
+margin-top: 3em;
 }
 
 .card-block .row {
-  display: flex;
-  margin: 3em 0em;
-align-items: baseline;
+    display: flex;
+    margin: 3em 0em;
+    align-items: baseline;
 }
 
 .card-block figure {
-  margin: 0px;
-  filter: grayscale(100%);
+    margin: 0px;
+    filter: grayscale(100%);
 }
 
 .card-block figure:hover {
-  filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 .card-block h4 {
-  text-align: center;
+    text-align: center;
 }
 
 .container-fluid {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 5% 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5% 0%;
 }
 
 .fa {
-  text-align: center;
-  font-size: 30px;
-  color: #0DA36B;
+    text-align: center;
+    font-size: 30px;
+    color: #0DA36B;
 }
 
 .row {
@@ -368,128 +387,121 @@ align-items: baseline;
 }
 
 .col-md-4 {
-padding: 0px;
-margin-bottom: 2%;
+    padding: 0px;
+    margin-bottom: 2%;
 }
 
-
 .btn {
-  background-color: #0DA36B;
-  border-color: #0DA36B;
+    background-color: #0DA36B;
+    border-color: #0DA36B;
 }
 
 .btn:hover {
-  background-color: rgba(13, 163, 107, 0.8);
-  border-color: #0DA36B;
+    background-color: rgba(13, 163, 107, 0.8);
+    border-color: #0DA36B;
 }
+
+
 /*---------------START SECTION WORK------------*/
 
 .work {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  min-height: 1000px;
-  margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 1000px;
+    margin: auto;
 }
 
-
-
-
 .work h2 {
-  font-size: 60px;
-  color: black;
-  text-align: center;
+    font-size: 60px;
+    color: black;
+    text-align: center;
     width: 100%;
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
 .work a {
     width: 100%;
     min-height: 350px;
-  text-decoration: none;
-  filter: sepia(10%);
-  border-bottom: 3px solid rgba(61, 181, 136, 1);
+    text-decoration: none;
+    filter: sepia(10%);
+    border-bottom: 3px solid rgba(61, 181, 136, 1);
 }
 
-
 .work .overlay {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  transition: 1s;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 1s;
 }
 
 .work figure {
-  margin: 0px;
+    margin: 0px;
 }
 
-
 .pba {
-  background: url(../img/pba.png);
+    background: url(../img/pba.png);
 }
 
 .work .pizzi {
-  background: url(../img/pizzi.png) center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background: url(../img/pizzi.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .work .fap {
-  background: url(../img/fap.png) center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background: url(../img/fap.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .lbc {
-  background: url(../img/LBC.png);
+    background: url(../img/LBC.png);
 }
 
-
 .quiver {
-background: url(../img/quiver.png) center center;
-background-size: cover;
+    background: url(../img/quiver.png) center center;
+    background-size: cover;
 }
 
 .work .info {
-background: url(../img/info.png) center center;
-background-size: cover;
-background-repeat: no-repeat;
-
+    background: url(../img/info.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tatoo {
-background: url(../img/tatoo.png) center center;
-background-size: cover;
+    background: url(../img/tatoo.png) center center;
+    background-size: cover;
 }
 
 .quiver, .pba, .lbc, .pizzi, .info, .tatoo {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .overlay p {
-  opacity: 0;
-  color: white;
-  font-size: 16px;
-  width: 90%;
-  margin: auto;
-  font-weight: lighter;
-  line-height: 1.5em;
+    opacity: 0;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    font-weight: lighter;
+    line-height: 1.5em;
 }
 
 .overlay p em {
-font-style: normal;
-border: 1px solid white;
-padding: 5px 80px;
-line-height: 5em;
+    font-style: normal;
+    border: 1px solid white;
+    padding: 5px 80px;
+    line-height: 5em;
 }
 
-
 .work a:hover p {
-  opacity: 1;
+    opacity: 1;
 }
 
 .work a:hover .overlay {
@@ -497,221 +509,259 @@ line-height: 5em;
     opacity: .9;
     transition: 1s;
     height: 70%;
-
 }
-.work a:hover  {
-    background-color:#211F25;
+
+.work a:hover {
+    background-color: #211F25;
     opacity: .9;
 }
 
 .overlay:hover em {
-  border-color: #0DA36B;
+    border-color: #0DA36B;
 }
 
 .overlay em:hover {
-  background-color: #0DA36B;
-  font-weight: bold;
+    background-color: #0DA36B;
+    font-weight: bold;
 }
 
 
 /*CAROUSEL FOR REFERENCES*/
 
-
-
 #references {
-  color: white;
-  background-color: #211F25;
-  text-align: center;
-  font-size: 50px;
-  margin: 0px;
+    color: white;
+    background-color: #211F25;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
 }
 
 .carousel-item {
-  margin: auto;
-  height: 550px;
-  font-size: 18px;
-  color: white;
-  font-style: oblique;
-  background-color: #211F25;
+    margin: auto;
+    height: 550px;
+    font-size: 18px;
+    color: white;
+    font-style: oblique;
+    background-color: #211F25;
 }
 
 .carousel-item p {
-  width: 65%;
-  margin: auto;
-  text-align: center;
+    width: 65%;
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
 }
 
 .carousel-item strong {
-  line-height: 4em;
+    line-height: 4em;
 }
 
 .carousel-control-prev, .carousel-control-next {
-  bottom: 229px;
+    bottom: 170px;
 }
+
+.carousel-indicators li {
+    height: 26px;
+    background-color: #09BA78;
+}
+
 
 /*---------FOOTER OR CONTACT PART ON EVERY PAGES--------*/
 
 footer {
-  background-color: white;
-  min-height: 200px;
-  display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: space-around;
-transition: 2s;
+    background-color: white;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    transition: 2s;
 }
 
 footer h2 {
-  color:#211F25;
-  text-align: center;
-  width: 100%;
-  font-size: 60px;
-  font-weight: lighter;
-  padding-top: 8%;
+    color: #211F25;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: lighter;
+    padding-top: 8%;
 }
 
 footer #goup {
-  font-size: 30px;
-  position: fixed;
-top: 90%;
-left: 80%;
-right: 0%;
-bottom: 0%;
-/*margin-right: 5%;*/
+    font-size: 30px;
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    right: 0%;
+    bottom: 0%;
+    /*margin-right: 5%;*/
 }
 
-
 .fa-github, .fa-linkedin, .fa-twitter, .fa-diamond {
-  font-size: 24px;
-  color: #211F25;
+    font-size: 24px;
+    color: #211F25;
 }
 
 .fa-diamond {
-  font-size: 20px;
+    font-size: 20px;
 }
 
-.fa-diamond:hover{
-  color: #0DA36B;
+.fa-diamond:hover {
+    color: #0DA36B;
 }
+
 .fa-linkedin:hover {
-  color: #0DA36B;
+    color: #0DA36B;
 }
 
 .fa-twitter:hover {
-  color: #0DA36B;
+    color: #0DA36B;
 }
-footer .fa-github:hover{
-  color: #0DA36B;
+
+footer i:hover {
+    color: #0DA36B;
 }
 
 footer .material-icons:hover {
-  color: #0DA36B;
+    color: #0DA36B;
 }
 
-
 footer #goup .material-icons {
-  color: #0DA36B;
-  font-size: 64px;
+    color: #0DA36B;
+    font-size: 64px;
 }
 
 footer #goup .material-icons:hover {
-  opacity: .5;
+    opacity: .5;
 }
 
 .reseauxpros {
-  display: flex;
-  width: 100%;
-justify-content: space-around;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .reseauxpros .material-icons {
-  color: white;
-
+    color: white;
 }
 
 .contactquick {
-  width: 40%;
-  margin: auto;
-  flex-direction: row;
-  display: flex;
-  justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
 }
 
 .contactquick i {
-  color: #211F25;
-  font-size: 24px;
+    color: #211F25;
+    font-size: 24px;
 }
 
 .contactquick .fa-mobile {
-  font-size: 24px;
+    font-size: 29px;
 }
 
+.fa-paper-plane-o p {
+    font-size: 12px;
+}
+
+.fa-mobile p {
+    font-size: 12px;
+}
 
 @media (min-width: 600px) {
+    .navbar-nav {
+        margin-top: 20%;
+    }
 
-.navbar-nav {
-  margin-top: 20%;
+    #collapseExample .card-block {
+    padding: 5.25rem  15rem;
+    margin-top: 3em;
+    }
+
+    #collapseExample1 .card-block {
+    padding: 5.25rem  15rem;
+    margin-top: 3em;
+    }
+
+    #collapseExample2 .card-block {
+    padding: 5.25rem  15rem;
+    margin-top: 3em;
+    }
+    .about figure {
+        width: 30%;
+    }
+    .work .fap {
+        background: url(../img/fap.png);
+        background-position: center;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .work a {
+        width: 50%;
+        height: auto;
+    }
+    .carousel-item p {
+        font-size: 20px;
+    }
+    footer #goup {
+        left: 90%;
+    }
 }
 
-.work .fap {
-  background: url(../img/fap.png);
-  background-position: center;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+@media(min-width:992px) {
+    #navbarNavAltMarkup {
+        height: 0px;
+    }
+    #navbarNavAltMarkup .linknav {
+        font-size: 20px;
+    }
+    #navbarNavAltMarkup .linknav:hover {
+        opacity: 1;
+        color: #0DA36B;
+    }
 
-.work a {
-  width: 50%;
-  height: auto;
-}
+    #skills {
+      width: 100%;
+      text-align: center;
+    }
 
-.carousel-item p {
-  font-size: 20px;
-}
+    #collapseExample .card-block {
+    padding: 5.25rem  8rem;
+    margin-top: 3em;
+    }
 
-footer #goup {
-left: 90%;
-}
+    #collapseExample1 .card-block {
+    padding: 5.25rem  8rem;
+    margin-top: 3em;
+    }
 
-}
+    #collapseExample2 .card-block {
+    padding: 5.25rem  8rem;
+    margin-top: 3em;
+    }
 
-  @media(min-width:992px) {
-
-#navbarNavAltMarkup{
-  height: 0px;
-}
-
-#navbarNavAltMarkup .linknav {
-font-size: 20px;
-}
-
-#navbarNavAltMarkup .linknav:hover {
-  opacity: 1;
-  color: #0DA36B;
-}
-
-.about figure  {
-  width: 15%;
-}
-.work a {
-  width: 33.3333%;
-}
-
-.carousel-item p {
-  font-size: 25px;
-}
-
-footer #goup {
-left: 95%;
-}
-
+    .about figure {
+        width: 15%;
+    }
+    .work a {
+        width: 33.3333%;
+    }
+    .carousel-item p {
+        font-size: 25px;
+    }
+    footer #goup {
+        left: 95%;
+    }
 }
 
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -720,6 +770,7 @@ left: 95%;
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -737,14 +788,14 @@ left: 95%;
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -753,6 +804,7 @@ left: 95%;
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -760,6 +812,7 @@ left: 95%;
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -773,15 +826,17 @@ left: 95%;
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -793,12 +848,10 @@ left: 95%;
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -807,74 +860,52 @@ left: 95%;
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
