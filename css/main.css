@@ -407,6 +407,8 @@ margin-bottom: 2%;
     width: 100%;
     min-height: 350px;
   text-decoration: none;
+  filter: sepia(10%);
+  border-bottom: 3px solid rgba(61, 181, 136, 1);
 }
 
 
@@ -429,13 +431,14 @@ margin-bottom: 2%;
 }
 
 .work .pizzi {
-  background: url(../img/pizzi.png);
-  background-position: center;
+  background: url(../img/pizzi.png) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work .fap {
-  background: url(../img/fap.png);
-  background-position: center;
+  background: url(../img/fap.png) center center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -445,21 +448,25 @@ margin-bottom: 2%;
 
 
 .quiver {
-background: url(../img/quiver.png);
+background: url(../img/quiver.png) center center;
+background-size: cover;
 }
 
 .work .info {
-background: url(../img/info.png);
+background: url(../img/info.png) center center;
+background-size: cover;
 background-repeat: no-repeat;
+
 }
 
 .tatoo {
-background: url(../img/tatoo.png);
+background: url(../img/tatoo.png) center center;
+background-size: cover;
 }
 
-.quiver, .pba, .lbc, .fap, .pizzi, .info, .tatoo {
+.quiver, .pba, .lbc, .pizzi, .info, .tatoo {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -546,10 +553,12 @@ line-height: 5em;
 
 footer {
   background-color: white;
-  min-height: 500px;
+  min-height: 200px;
   display: flex;
 flex-wrap: wrap;
 justify-content: center;
+align-content: space-around;
+transition: 2s;
 }
 
 footer h2 {
@@ -573,12 +582,12 @@ bottom: 0%;
 
 
 .fa-github, .fa-linkedin, .fa-twitter, .fa-diamond {
-  font-size: 44px;
+  font-size: 24px;
   color: #211F25;
 }
 
 .fa-diamond {
-  font-size: 35px;
+  font-size: 20px;
 }
 
 .fa-diamond:hover{
@@ -620,6 +629,22 @@ justify-content: space-around;
 
 }
 
+.contactquick {
+  width: 40%;
+  margin: auto;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contactquick i {
+  color: #211F25;
+  font-size: 24px;
+}
+
+.contactquick .fa-mobile {
+  font-size: 24px;
+}
 
 
 @media (min-width: 600px) {
@@ -627,8 +652,18 @@ justify-content: space-around;
 .navbar-nav {
   margin-top: 20%;
 }
+
+.work .fap {
+  background: url(../img/fap.png);
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .work a {
   width: 50%;
+  height: auto;
 }
 
 .carousel-item p {
@@ -656,8 +691,11 @@ font-size: 20px;
   color: #0DA36B;
 }
 
+.about figure  {
+  width: 15%;
+}
 .work a {
-  width: 33%;
+  width: 33.3333%;
 }
 
 .carousel-item p {
