@@ -276,18 +276,16 @@ header h1 {
 
 .about {
     background-color: #211F25;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 7%;
+    padding-bottom: 7%;*/
 }
 
 .about h2 {
     color: white;
     text-align: center;
-    font-size: 60px;
     font-weight: lighter;
-    padding-top: 8%;
 }
 
 .about p {
@@ -298,29 +296,6 @@ header h1 {
     margin: auto;
     text-align: center;
     padding: 5% 0% 5% 0%;
-}
-
-.about a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 3em;
-}
-
-.about a:hover {
-    color: #0DA36B;
-    transition: 0.5s;
-}
-
-.about figure {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 7% 0%;
-}
-
-.about figure img {
-    box-shadow: 3px 3px 8px black;
 }
 
 
@@ -336,18 +311,18 @@ header h1 {
 }
 
 #collapseExample .card-block {
-padding: 5.25rem  8rem;
-margin-top: 3em;
+    padding: 5.25rem 8rem;
+    margin-top: 3em;
 }
 
 #collapseExample1 .card-block {
-padding: 5.25rem  8rem;
-margin-top: 3em;
+    padding: 5.25rem 8rem;
+    margin-top: 3em;
 }
 
 #collapseExample2 .card-block {
-padding: 5.25rem  8rem;
-margin-top: 3em;
+    padding: 5.25rem 8rem;
+    margin-top: 3em;
 }
 
 .card-block .row {
@@ -420,109 +395,8 @@ margin-top: 3em;
     margin-bottom: 5rem;
 }
 
-.work a {
-    width: 100%;
-    min-height: 350px;
-    text-decoration: none;
-    filter: sepia(10%);
-    border-bottom: 3px solid rgba(61, 181, 136, 1);
-}
-
-.work .overlay {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    transition: 1s;
-}
-
 .work figure {
     margin: 0px;
-}
-
-.pba {
-    background: url(../img/pba.png);
-}
-
-.work .pizzi {
-    background: url(../img/pizzi.png) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.work .fap {
-    background: url(../img/fap.png) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.lbc {
-    background: url(../img/LBC.png);
-}
-
-.quiver {
-    background: url(../img/quiver.png) center center;
-    background-size: cover;
-}
-
-.work .info {
-    background: url(../img/info.png) center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.tatoo {
-    background: url(../img/tatoo.png) center center;
-    background-size: cover;
-}
-
-.quiver, .pba, .lbc, .pizzi, .info, .tatoo {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-
-.overlay p {
-    opacity: 0;
-    color: white;
-    font-size: 16px;
-    width: 90%;
-    margin: auto;
-    font-weight: lighter;
-    line-height: 1.5em;
-}
-
-.overlay p em {
-    font-style: normal;
-    border: 1px solid white;
-    padding: 5px 80px;
-    line-height: 5em;
-}
-
-.work a:hover p {
-    opacity: 1;
-}
-
-.work a:hover .overlay {
-    background-color: #211F25;
-    opacity: .9;
-    transition: 1s;
-    height: 70%;
-}
-
-.work a:hover {
-    background-color: #211F25;
-    opacity: .9;
-}
-
-.overlay:hover em {
-    border-color: #0DA36B;
-}
-
-.overlay em:hover {
-    background-color: #0DA36B;
-    font-weight: bold;
 }
 
 
@@ -561,7 +435,7 @@ margin-top: 3em;
 }
 
 .carousel-indicators li {
-    height: 26px;
+    height: 10px;
     background-color: #09BA78;
 }
 
@@ -582,9 +456,7 @@ footer h2 {
     color: #211F25;
     text-align: center;
     width: 100%;
-    font-size: 50px;
     font-weight: lighter;
-    padding-top: 8%;
 }
 
 footer #goup {
@@ -674,20 +546,17 @@ footer #goup .material-icons:hover {
     .navbar-nav {
         margin-top: 20%;
     }
-
     #collapseExample .card-block {
-    padding: 5.25rem  15rem;
-    margin-top: 3em;
+        padding: 5.25rem 15rem;
+        margin-top: 3em;
     }
-
     #collapseExample1 .card-block {
-    padding: 5.25rem  15rem;
-    margin-top: 3em;
+        padding: 5.25rem 15rem;
+        margin-top: 3em;
     }
-
     #collapseExample2 .card-block {
-    padding: 5.25rem  15rem;
-    margin-top: 3em;
+        padding: 5.25rem 15rem;
+        margin-top: 3em;
     }
     .about figure {
         width: 30%;
@@ -722,35 +591,80 @@ footer #goup .material-icons:hover {
         opacity: 1;
         color: #0DA36B;
     }
-
     #skills {
-      width: 100%;
-      text-align: center;
+        width: 100%;
+        text-align: center;
     }
-
+    h2 {
+        font-size: 50px;
+        padding: 3rem 0rem;
+    }
     #collapseExample .card-block {
-    padding: 5.25rem  8rem;
-    margin-top: 3em;
+        padding: 5.25rem 8rem;
+        margin-top: 3em;
     }
-
     #collapseExample1 .card-block {
-    padding: 5.25rem  8rem;
-    margin-top: 3em;
+        padding: 5.25rem 8rem;
+        margin-top: 3em;
     }
-
     #collapseExample2 .card-block {
-    padding: 5.25rem  8rem;
-    margin-top: 3em;
+        padding: 5.25rem 8rem;
+        margin-top: 3em;
     }
-
+    .about .moreabout {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 7%;
+    }
+    .moreabout p a {
+        width: 0px;
+    }
+    .about h2 {
+        width: 100%;
+    }
     .about figure {
         width: 15%;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 2px 2px 2px white;
     }
-    .work a {
-        width: 33.3333%;
+    .about p {
+        width: 50%;
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+    figure img {
+        width: 100%;
+        height: auto;
+        transition: 1s;
+    }
+    .work {
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+    .work #fap {
+        width: 46%;
+    }
+    .work figure {
+        width: 30%;
+        height: auto;
+    }
+    .work figure img {
+        border: 2px solid #211F25;
+    }
+    .work figure img:hover {
+        transform: scale(1.1);
+        transition: 1.2s;
+        opacity: 1.5;
     }
     .carousel-item p {
         font-size: 25px;
+    }
+    footer {
+        padding-bottom: 4%;
     }
     footer #goup {
         left: 95%;
