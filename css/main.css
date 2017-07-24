@@ -631,16 +631,17 @@ footer #goup .material-icons:hover {
         justify-content: center;
         box-shadow: 2px 2px 2px white;
     }
+
     .about p {
       width: 47%;
-      font-size: 2px;
+      font-size: 20px;
       margin: 0px;
       padding: 0px;
       display: flex;
       justify-content: center;
       line-height: 50px;
-
     }
+
     figure img {
         width: 100%;
         height: auto;
