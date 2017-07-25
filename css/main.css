@@ -645,7 +645,6 @@ footer #goup .material-icons:hover {
     figure img {
         width: 100%;
         height: auto;
-        transition: 1s;
     }
     .work {
         justify-content: space-between;
@@ -664,7 +663,6 @@ footer #goup .material-icons:hover {
     }
     .work figure img:hover {
         transform: scale(1.1);
-        transition: 1.2s;
         opacity: 1.5;
     }
     .carousel-item p {
