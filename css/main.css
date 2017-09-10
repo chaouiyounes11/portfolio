@@ -650,6 +650,7 @@ footer #goup .material-icons:hover {
         justify-content: space-between;
         width: 90%;
         margin: auto;
+        align-items: baseline;
     }
     .work #fap {
         width: 46%;
