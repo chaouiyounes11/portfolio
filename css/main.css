@@ -398,6 +398,16 @@ align-content: center;
     margin: 0px;
 }
 
+.myTools {
+  display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.myTools figure {
+  width: 9%;
+}
+
 
 /*CAROUSEL FOR REFERENCES*/
 
@@ -666,6 +676,8 @@ footer #goup .material-icons:hover {
         transform: scale(1.1);
         opacity: 1.5;
     }
+
+
     .carousel-item p {
         font-size: 25px;
     }
