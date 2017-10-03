@@ -1,5 +1,11 @@
-var prez = $('.work > figure > a > img');
 
-prez.hover(handlerIn, handlerOut){
-  prez.css("box-shadow", "3px 3px 4px grey");
-};
+
+
+$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 1050; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
