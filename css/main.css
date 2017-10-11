@@ -581,6 +581,16 @@ footer #goup .material-icons:hover {
     .about figure {
         width: 30%;
     }
+
+    .about {
+      display: flex;
+flex-direction: column;
+justify-content: space-around;
+    }
+
+    .about .moreabout {
+      flex-direction: row;
+align-items: center;}
     .work .fap {
         background: url(../img/fap.png);
         background-position: center;
