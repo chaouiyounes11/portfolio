@@ -611,6 +611,12 @@ align-items: center;}
 }
 
 @media(min-width:992px) {
+
+  .navbar-nav {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+
     #navbarNavAltMarkup {
         height: 0px;
     }
@@ -673,9 +679,9 @@ align-items: center;}
       line-height: 50px;
     }
 
-    figure img {
+    figure .younes {
         width: 100%;
-        height: auto;
+        height: 500px;
     }
     .work {
         justify-content: space-between;
