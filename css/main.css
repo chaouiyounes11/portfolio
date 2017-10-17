@@ -719,8 +719,6 @@ align-items: center;}
     .myTools figure {
       width: 10%;
       filter: grayscale(80%);
-
-      transition: 1.3s;
     }
 
     .myTools figure:hover {
