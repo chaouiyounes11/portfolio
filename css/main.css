@@ -42,15 +42,14 @@ html {
  * A better looking default horizontal rule
  */
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
+ hr {
+background:  #ce3635;
+width: 45px;
+height: 5px;
+margin: auto;
+margin-bottom: 2%;
 
+}
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -360,6 +359,16 @@ header .navbar {
     justify-content: flex-end;
   }
 
+  /*WORK PART */
+
+  .work div {
+    height: auto;
+  }
+
+  .work div figure {
+    width: 100%;
+  }
+
 
 /*---------- START OF SKILLS SECTION OF HOME PAGE------------*/
 
@@ -594,7 +603,6 @@ align-items: center;
     color: white;
     background-color: #211F25;
     text-align: center;
-    font-size: 50px;
     margin: 0px;
 }
 
@@ -731,6 +739,10 @@ footer #goup .material-icons:hover {
     font-size: 12px;
 }
 
+footer div {
+  width: 100%;
+}
+
 @media (min-width: 600px) {
 
 
@@ -755,6 +767,24 @@ footer #goup .material-icons:hover {
 flex-direction: column;
 justify-content: space-around;
     }
+
+    .work div {
+      height: 100%;
+    }
+
+.work div figure{
+  display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+width: 50%;
+}
+
+.work div figure a {
+  width: 100%;
+}
+
+
 
     .about .moreabout {
       flex-direction: row;
@@ -800,7 +830,6 @@ align-items: center;}
         text-align: center;
     }
     h2 {
-        font-size: 50px;
         padding: 3rem 0rem;
     }
     #tools figure{
@@ -868,8 +897,14 @@ margin-bottom: 2%;
         justify-content: space-between;
         width: 90%;
         margin: auto;
+        height: 200px;
         align-items: baseline;
     }
+
+    .work div figure {
+      width: 30%;
+    }
+
     .work #fap {
         width: 46%;
     }
