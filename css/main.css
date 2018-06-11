@@ -551,9 +551,7 @@ align-content: center;
     width: 100%;
 }
 
-#tools figure {
-  margin: 1em 31px;
-}
+
 
 #skills {
   text-align: center;
@@ -569,6 +567,10 @@ align-content: center;
   display: flex;
 flex-wrap: wrap;
 width: 100%;
+}
+
+#tools figure {
+  margin: 1em 23px;
 }
 
 .myTools figure {
@@ -801,6 +803,9 @@ align-items: center;}
         font-size: 50px;
         padding: 3rem 0rem;
     }
+    #tools figure{
+    margin: 1em 35px;
+  }
     #collapseExample .card-block {
         padding: 5.25rem 8rem;
         margin-top: 3em;
