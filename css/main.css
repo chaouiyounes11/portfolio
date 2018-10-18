@@ -132,7 +132,7 @@ section h2 {
 
 #navbarNavAltMarkup {
     height: 100vh;
-    background-color: #0DA36B;
+    background-color: #ce3635 ;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ section h2 {
 
 #navbarNavAltMarkup .linknav:hover {
     opacity: 1;
-    color: #0DA36B;
+    color: #ce3635 ;
     background-color: white;
 }
 
@@ -428,12 +428,12 @@ header .navbar {
 
 .porto article a:hover {
     text-decoration: underline;
-    color: #0DA36B;
+    color: #ce3635 ;
     transition: 0.2s;
 }
 
 .material-icons, .fa-rocket {
-    color: #0DA36B;
+    color: #ce3635 ;
     font-size: 44px;
 }
 
@@ -520,7 +520,7 @@ align-content: center;
 .fa {
     text-align: center;
     font-size: 30px;
-    color: #0DA36B;
+    color: #ce3635 ;
 }
 
 .row {
@@ -533,13 +533,13 @@ align-content: center;
 }
 
 .btn {
-    background-color: #0DA36B;
-    border-color: #0DA36B;
+    background-color: #ce3635 ;
+    border-color: #ce3635 ;
 }
 
 .btn:hover {
     background-color: rgba(13, 163, 107, 0.8);
-    border-color: #0DA36B;
+    border-color: #ce3635 ;
 }
 
 
@@ -675,23 +675,23 @@ footer #goup {
 }
 
 .fa-diamond:hover {
-    color: #0DA36B;
+    color: #ce3635 ;
 }
 
 .fa-linkedin:hover {
-    color: #0DA36B;
+    color: #ce3635 ;
 }
 
 .fa-twitter:hover {
-    color: #0DA36B;
+    color: #ce3635 ;
 }
 
 footer i:hover {
-    color: #ce3635;
+    color: #ce3635 ;
 }
 
 footer .material-icons:hover {
-    color: #0DA36B;
+    color: #ce3635 ;
 }
 
 footer #goup .material-icons {
@@ -823,7 +823,7 @@ align-items: center;}
     }
     #navbarNavAltMarkup .linknav:hover {
         opacity: 1;
-        color: #0DA36B;
+        color: #ce3635 ;
     }
     #skills {
         width: 100%;
